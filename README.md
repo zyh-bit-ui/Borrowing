@@ -156,11 +156,11 @@ mysql -u root -p book_system < db/book_system.sql
 
 ```env
 PORT=3000
-JWT_SECRET=library_2026_secret_key
+JWT_SECRET=your-secret-key-here
 JWT_EXPIRES_IN=7d
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=123456
+DB_PASSWORD=your-database-password-here
 DB_NAME=book_system
 DB_PORT=3306
 ```
