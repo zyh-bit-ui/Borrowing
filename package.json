@@ -1,0 +1,24 @@
+{
+  "name": "broowjs",
+  "version": "1.0.0",
+  "description": "图书借阅平台后端",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "moment": "^2.30.1",
+    "mysql2": "^3.16.0",
+    "node-schedule": "^2.1.1",
+    "svg-captcha": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
